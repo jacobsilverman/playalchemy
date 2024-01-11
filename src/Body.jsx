@@ -22,7 +22,7 @@ const Body = () => {
         <>
             <div className='relative ml-[calc(100vw/-2)] lg:ml-0'>
                 <div className='w-[200vw] lg:w-[100vw]' style={{background: `url(${background1})`, backgroundSize: "100% 100%", backgroundRepeat: "no-repeat"}}>
-                    <div className='max-h-[100vh] h-[calc(500px+(10vw*3))] text-white text-5xl flex items-center justify-center'>
+                    <div className='max-h-[100vh] min-h-[500px] h-[calc(500px+(10vw*3))] text-white text-5xl flex items-center justify-center'>
                         <div className='grid'>
                             <div className='max-w-[100vw] text-center p-10 font-special'>
                                 THE FATE OF ANKHOS IS IN YOUR HANDS.
@@ -37,7 +37,7 @@ const Body = () => {
             
             <div className='relative ml-[calc(100vw/-2)] lg:ml-0'>
                 <div className='w-[200vw] lg:w-[100vw]' style={{background: `url(${background2})`, backgroundSize: "100% 100%", backgroundRepeat: "no-repeat"}}>
-                    <div className='max-h-[100vh] h-[calc(500px+(10vw*3))] '>
+                    <div className='max-h-[100vh] min-h-[500px] h-[calc(500px+(10vw*3))] '>
                         <div className=' flex justify-center items-center w-[100%] h-[100%]'>
                             <div className='bg-white w-[75vw] h-[60%] text-center'>
                                 Youtube Video Example
@@ -148,7 +148,7 @@ const Body = () => {
 
             <div className='relative ml-[calc(90vw/-2)] lg:ml-0'>
                 <div className='w-[180vw] lg:w-[100vw]' style={{background: `url(${background4})`, backgroundSize: "100% 100%", backgroundRepeat: "no-repeat"}}>
-                    <div className='max-h-[100vh] h-[calc(700px+(10vw*3))] grid grid-cols-1 grid-rows-2 ml-10'>
+                    <div className='max-h-[100vh] min-h-[700px] h-[calc(700px+(10vw*3))] grid grid-cols-1 grid-rows-2 ml-10'>
                         <div className='ml-auto mr-auto mt-20 font-special col-span-1 max-w-[100vw]'>
                         <div className='text-7xl text-center font-special text-yellow-100'>
                             START PLAYING FOR FREE.
