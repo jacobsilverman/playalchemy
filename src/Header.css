@@ -1,0 +1,51 @@
+.header {
+    visibility: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(59, 7 ,100);
+    animation-duration: 1s;
+    z-index: 40;
+    position: absolute;
+    animation-fill-mode: forwards;
+}
+
+.header.headerOpen {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s, visibility 1s;
+}
+
+.header.headerClose {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s, visibility 1s;
+}
+
+@keyframes ContentOpen {
+    from {
+        bottom: -50px;
+    }
+    to {
+        bottom: 0px;
+    }
+}
+@keyframes ContentClose {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: -50px;
+    }
+}
+
+.contentOpen {
+    animation-name: ContentOpen;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+.contentClose {
+    animation-name: ContentClose;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}

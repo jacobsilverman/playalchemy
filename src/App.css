@@ -1,0 +1,27 @@
+#root {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+.logo {
+  height: 1.2em;
+  padding-top: 10px;;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
